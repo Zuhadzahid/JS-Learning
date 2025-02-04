@@ -8,7 +8,7 @@ console.log(typeof year);
 console.log(typeof world);
 
 // convert number to string 
-// there is a two way 
+// there is a three ways 
 
 // first way 
 
@@ -18,11 +18,16 @@ year = year + "";
 
 console.log(typeof year);
 
-// Other way 
+// Second way 
 
 age = 32;
 age = String(age);
 console.log(typeof age);
+
+// third way 
+
+age = "32";
+console.log(typeof age, "this is third way");
 
 // convert string to number 
 // again there is a two way 
