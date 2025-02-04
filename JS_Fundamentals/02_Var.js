@@ -25,6 +25,7 @@ console.log(SName);
 console.log(fName + ' ' + SName);
 
 // make variable without using var beacause by default javascript make the varibale of "var" if we do not use the word var 
+
 fN = "Learn";
 
 sN = "ing";
@@ -32,7 +33,8 @@ sN = "ing";
 console.log(fN + sN);
 
 // now if we use the word "use strict" in the top so javacsript doesnot make the varibale wtihout intializing
-//  the word var before our value so solving this error you have to put the word var before fN or sN
+//  the word var before our value so solving this error you have to put the word var before fN or sN basically
+// you will make var as let work by using this word in the top use strict.
 
 fN = "Learn";
 
