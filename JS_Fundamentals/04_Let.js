@@ -9,7 +9,7 @@
 
 // SyntaxError: Identifier 'firstName' has already been declared it gives thge error but in var we can do it 
 
-// but in let we can only use one time let and we can also chaneg the value of our variable 
+// but in let we can only use one time, let and we can also change the value of our variable 
 // for example
 
 let firstName = "Hello";

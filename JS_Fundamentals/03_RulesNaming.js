@@ -22,7 +22,7 @@ console.log(name2);
 
 // second rule 
 
-// we can only use "$" symbol and "_" symbol in first place of thge varibale or in between even we can not give a space in the vairables name it give us a error 
+// we can only use "$" symbol and "_" symbol in first place of the varibale or in between even we can not give a space in the vairables name it give us a error 
 
 // for example 
 
