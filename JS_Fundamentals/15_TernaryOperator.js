@@ -28,3 +28,21 @@ console.log(drink1);
 
 // so we can use ternary operator if we have to quickly initilize the condition 
 // we have to put "?" before this our condition will placed what it want to store in the variable with the help of ":" we can choose our variables what actually will store on it  first it check the condition then it will save the value accoprding to the condition 
+
+// another Example for understanding ternary operator is 
+let myNum = 10;
+let myAge;
+
+if (myNum > 11) {
+    myAge = "Your Age is Above";
+}else{
+    myAge = "Your supposed to do fun";
+}
+
+console.log(myAge);
+
+// You don't need to write above big code that i have written above, we can use instead below code by using ternary operator or conditional operator
+
+let myNum2 = 10;
+let myAge2 = myNum2 >= 8 ? "Your Age is above " : "Your supposed to do fun";
+console.log(myAge2);
