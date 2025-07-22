@@ -34,3 +34,21 @@ while (j<=8) {
 }
 console.log(check);
 console.log(`Current value of j is ${j}`);
+
+// While Loop Example 
+// sum of all numbers individually of 10 
+
+let num = 0;
+let total = 0;
+while (num <= 10) {
+    total = total + num;
+    num++;
+}
+console.log(total);
+
+// Now if i want to implememnt this without while loop so we will do in this way 
+
+let val = 10;
+// A mathemetical formula for sum of all numbers is 
+let sumOfAll = (val*(val+1))/2; 
+console.log(sumOfAll);
